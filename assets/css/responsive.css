@@ -1,7 +1,73 @@
 /* tablet layout */
 @media only screen and (min-width:200px) and (max-width:991px){
-
    
+
+    .jacket_header h2 {
+      
+        font-size: 40px;
+        
+    }
+    .jacket_footer {
+        margin-bottom: 0px;
+        
+    }
+    .card-title {
+      
+        font-size: 20px;
+        
+    }
+    .card-body {
+        flex: none;
+        padding: 1rem 1rem;
+    }
+    .btn-group-lg > .btn, .btn-lg {
+        
+        font-size: 15px;
+    }
+
+    .card-img-top {
+        margin-top: 10px;
+    }
+
+    .card-img-top {
+       
+        height: 200px;
+       
+    }
+    .delivery_img {
+        width: 40%;
+        float: left;
+    }
+    .delivery_content {
+        width: 60%;
+        float: left;
+    }
+    .delivery_img img {
+        width: 65px;
+        
+        margin-left: 15px;
+    
+        margin-top: 50px;
+    }
+
+    .dimg {
+        height: 455px;
+    }
+
+    .delivery {
+        padding: 50px 0px;
+    }
+    .delivery_singel_box {
+       
+        font-size: 13px;
+        
+    }
+    .delivery_content h3 {
+        color: #363958;
+        font-size: 22px;
+        margin-top: 15px;
+    }
+
 }
 
 /* mobile layout */
@@ -10,10 +76,7 @@
 @media only screen and (min-width:200px) and (max-width:480px){
 
      .logo_img img{
-
-        
-            width: 50%;
-        
+        width: 50%; 
     }
 
     .navbar {
@@ -26,13 +89,56 @@
 
 
     .header_content h2 {
-        font-size: 50px;
-        font-weight: 700;
-        color: rgba(226, 165, 34, 0.904);
-        text-transform: uppercase;
+        font-size: 30px;
+
+        
+    }
+    
+
+    .header_content_title a {
+        font-size: 16px;
     }
     .header_content {
         margin-top: 0px; 
     }
-   
+    .jacket_header {
+      
+        margin-top: 60px;
+        padding: 0px;
+    }
+    .jacket_header h2 {
+        font-size: 35px; 
+        text-align: center;
+    }
+    .card_top {
+        margin: 20px 0px;
+    }
+     
+    .delivery {
+        padding: 50px 0px;
+    }
+    .delivery_img {
+        
+        text-align: center;
+        float: none;
+        width: 100%;
+    }
+    .delivery_img img {
+        width: 80px;
+        height: 80px;
+        margin-top: 20px;
+    }
+    .delivery_content {
+        width: 100%;
+        text-align: center;
+    }
+
+    .delivery_content p {
+        font-size: 16px;
+        font-weight: 300;
+    }
+    .delivery_img_2 {
+        margin-top: 70px;
+       
+    }
 }
